@@ -1,0 +1,22 @@
+// VixoTeam Graphics Architecture & Rendering Pipeline
+// Module: shared_render/build.gradle
+// Author / Maintainer: VixoTeam Systems
+// SPDX-License-Identifier: MIT
+
+plugins {
+    id "java-library"
+}
+
+version = "1.0.0"
+group = "team.vixo"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+}

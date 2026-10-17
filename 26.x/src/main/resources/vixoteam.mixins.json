@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "team.vixo.mc26.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "LevelRendererGizmoMixin",
+    "LivingEntityJumpMixin",
+    "HudExtractMixin",
+    "ItemInHandRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

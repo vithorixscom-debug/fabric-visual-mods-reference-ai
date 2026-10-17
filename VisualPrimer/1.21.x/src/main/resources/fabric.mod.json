@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "visualprimer",
+  "version": "1.0.0",
+  "name": "VisualPrimer",
+  "description": "VisualPrimer client visuals for Fabric 1.21.11.",
+  "authors": ["VixoTeam Systems"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["visual.primer.mc121.PrimerClient"]
+  },
+  "mixins": ["visualprimer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+

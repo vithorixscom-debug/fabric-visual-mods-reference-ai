@@ -1,0 +1,10 @@
+Rights
+
+The only license for this repository is the MIT License.
+Copyright (c) 2026 VixoTeam Systems.
+The full text at the repository root is ../LICENSE.
+VisualPrimer/LICENSE repeats that same text.
+
+Copies and substantial portions of the software must keep that copyright notice and the MIT permission notice. LICENSE requires both.
+
+This directory is not a third-party work. See ../THIRD_PARTY.md.

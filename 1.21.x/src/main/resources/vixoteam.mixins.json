@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "team.vixo.mc121.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererWorldRenderMixin",
+    "InGameHudMixin",
+    "HeldItemRendererMixin",
+    "ClientPlayerJumpMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

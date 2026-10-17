@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "visual.primer.mc121.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererWorldRenderMixin",
+    "InGameHudMixin",
+    "HeldItemRendererMixin",
+    "ClientPlayerJumpMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

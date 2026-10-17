@@ -1,0 +1,36 @@
+// VixoTeam Graphics Architecture & Rendering Pipeline
+// Module: 1.21.x/build.gradle
+// Author / Maintainer: VixoTeam Systems
+// SPDX-License-Identifier: MIT
+
+plugins {
+    id "fabric-loom" version "1.17.17"
+}
+
+version = "1.0.0"
+group = "team.vixo"
+
+base {
+    archivesName = "vixoteam-1.21.11"
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.21.11"
+    mappings "net.fabricmc:yarn:1.21.11+build.6:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.19.3"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.141.6+1.21.11"
+    implementation project(":shared_render")
+    include project(":shared_render")
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+}
+
+sourceSets.main.resources.srcDir project(":shared_render").file("src/main/resources")

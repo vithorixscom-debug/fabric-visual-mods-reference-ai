@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "vixoteam",
+  "version": "1.0.0",
+  "name": "VixoTeam",
+  "description": "Client-side rendering reference for Fabric 26.2.",
+  "authors": ["VixoTeam Systems"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["team.vixo.mc26.VixoClient"]
+  },
+  "mixins": ["vixoteam.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
