@@ -1,11 +1,10 @@
 <!--
-VixoTeam Graphics Architecture & Rendering Pipeline
+Fabric visual mods reference
 Module: README.md
-Author / Maintainer: VixoTeam Systems
 SPDX-License-Identifier: MIT
 -->
 
-# Fabric client reference
+# Fabric visual mods reference
 
 Two Fabric client mods for visuals and ordinary client modules — overlays, HUD panels, first-person pose, settings, clocks, and session state — plus the notes for writing another module in the same shape. Input automation, packet construction, and pathfinding executors are out of scope (`CONTRIBUTING.md`). License: MIT (`LICENSE`).
 
@@ -27,6 +26,7 @@ Two Fabric client mods for visuals and ordinary client modules — overlays, HUD
 | `26.x/` | Mojmap `26.2`, Java 25. Modules, mixins, and `26.x/CONTRACT.md` |
 | `VisualPrimer/` | Second Gradle build. Mod id `visualprimer`, packages `visual.primer.*`, its own default palette. Same versions and the same depth-test rules. License: `VisualPrimer/LICENSE` (the same MIT text). |
 | `WINVISUAL.md` | Prompt for another visual module: counts, clocks, HUD, settings, build commands |
+| `supplementary/external-notes/MODDING_SKILLS.md` | Notes from three external skill packs. Contracts still win on API names. |
 
 ## API names that compiled
 

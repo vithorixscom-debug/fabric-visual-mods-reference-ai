@@ -1,7 +1,6 @@
 <!--
-VixoTeam Graphics Architecture & Rendering Pipeline
+Fabric visual mods reference
 Module: errors_and_crashes.md
-Author / Maintainer: VixoTeam Systems
 SPDX-License-Identifier: MIT
 -->
 

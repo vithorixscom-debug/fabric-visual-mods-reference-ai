@@ -1,7 +1,6 @@
 /*
- * VixoTeam Graphics Architecture & Rendering Pipeline
+ * Fabric visual mods reference
  * Module: WorldMatrices.java
- * Author / Maintainer: VixoTeam Systems
  * SPDX-License-Identifier: MIT
  */
 package visual.primer.mc121.render;

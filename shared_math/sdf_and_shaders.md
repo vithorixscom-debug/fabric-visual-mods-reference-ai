@@ -1,7 +1,6 @@
 <!--
-VixoTeam Graphics Architecture & Rendering Pipeline
+Fabric visual mods reference
 Module: sdf_and_shaders.md
-Author / Maintainer: VixoTeam Systems
 SPDX-License-Identifier: MIT
 -->
 

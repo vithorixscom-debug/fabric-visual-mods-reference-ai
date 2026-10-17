@@ -1,7 +1,6 @@
 /*
- * VixoTeam Graphics Architecture & Rendering Pipeline
+ * Fabric visual mods reference
  * Module: WorldGizmos.java
- * Author / Maintainer: VixoTeam Systems
  * SPDX-License-Identifier: MIT
  */
 package team.vixo.mc26.module;

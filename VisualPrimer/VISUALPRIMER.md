@@ -1,13 +1,12 @@
 <!--
-VixoTeam Graphics Architecture & Rendering Pipeline
+Fabric visual mods reference
 Module: VISUALPRIMER.md
-Author / Maintainer: VixoTeam Systems
 SPDX-License-Identifier: MIT
 -->
 
 # VisualPrimer
 
-Second Gradle build in this repository. License: `LICENSE` in this directory, the same MIT text as the repository root, Copyright (c) 2026 VixoTeam Systems. `RIGHTS.txt` does not replace that notice.
+Second Gradle build in this repository. License: `LICENSE` in this directory, the same MIT text as the repository root. No author is named.
 
 Two Fabric client mods and shared math with no Minecraft imports. Mod id `visualprimer`, packages `visual.primer.mc121`, `visual.primer.mc26`, `visual.primer.shared`. Entrypoint `PrimerClient`. The root mod id is `vixoteam`, packages `team.vixo.*`. Same caps and the same depth-test split. The default palette below is the difference in the settings object.
 

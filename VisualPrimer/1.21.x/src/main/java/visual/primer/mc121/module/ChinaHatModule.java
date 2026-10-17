@@ -1,7 +1,6 @@
 /*
- * VixoTeam Graphics Architecture & Rendering Pipeline
+ * Fabric visual mods reference
  * Module: ChinaHatModule.java
- * Author / Maintainer: VixoTeam Systems
  * SPDX-License-Identifier: MIT
  */
 package visual.primer.mc121.module;

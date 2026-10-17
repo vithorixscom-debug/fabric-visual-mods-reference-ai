@@ -1,7 +1,7 @@
 Rights
 
 The only license for this repository is the MIT License.
-Copyright (c) 2026 VixoTeam Systems.
+Fabric visual mods reference.
 The full text at the repository root is ../LICENSE.
 VisualPrimer/LICENSE repeats that same text.
 

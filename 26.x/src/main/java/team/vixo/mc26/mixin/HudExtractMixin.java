@@ -1,7 +1,6 @@
 /*
- * VixoTeam Graphics Architecture & Rendering Pipeline
+ * Fabric visual mods reference
  * Module: HudExtractMixin.java
- * Author / Maintainer: VixoTeam Systems
  * SPDX-License-Identifier: MIT
  */
 package team.vixo.mc26.mixin;
@@ -25,7 +24,7 @@ public class HudExtractMixin {
             return;
         }
         graphics.fill(8, 8, 132, 28, 0xC0101820);
-        graphics.text(Minecraft.getInstance().font, "VixoTeam", 14, 12, 0xFFFFFFFF, false);
+        graphics.text(Minecraft.getInstance().font, "Visual", 14, 12, 0xFFFFFFFF, false);
         TargetPanel.extract(graphics);
     }
 }

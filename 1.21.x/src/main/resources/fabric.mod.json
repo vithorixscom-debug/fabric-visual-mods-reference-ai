@@ -2,9 +2,8 @@
   "schemaVersion": 1,
   "id": "vixoteam",
   "version": "1.0.0",
-  "name": "VixoTeam",
+  "name": "Fabric visual mods reference",
   "description": "Client-side rendering reference for Fabric 1.21.11.",
-  "authors": ["VixoTeam Systems"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {

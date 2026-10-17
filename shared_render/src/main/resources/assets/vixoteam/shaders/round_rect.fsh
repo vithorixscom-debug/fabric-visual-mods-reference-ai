@@ -1,7 +1,6 @@
 /*
- * VixoTeam Graphics Architecture & Rendering Pipeline
+ * Fabric visual mods reference
  * Module: round_rect.fsh
- * Author / Maintainer: VixoTeam Systems
  * SPDX-License-Identifier: MIT
  */
 #version 150

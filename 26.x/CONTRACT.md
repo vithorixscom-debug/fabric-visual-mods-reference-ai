@@ -1,7 +1,6 @@
 <!--
-VixoTeam Graphics Architecture & Rendering Pipeline
+Fabric visual mods reference
 Module: CONTRACT.md
-Author / Maintainer: VixoTeam Systems
 SPDX-License-Identifier: MIT
 -->
 
@@ -51,7 +50,7 @@ Each level render adds `DeltaTracker.getGameTimeDeltaTicks()` to the age. Drop t
 
 `Hud.extractRenderState(GuiGraphicsExtractor, DeltaTracker)` at `TAIL`.
 
-A bar at pixels `(8,8)-(132,28)`, fill `0xC0101820`, text `VixoTeam` at `(14,12)` in white with shadow off.
+A bar at pixels `(8,8)-(132,28)`, fill `0xC0101820`, text `Visual` at `(14,12)` in white with shadow off.
 
 If the crosshair hit is an `EntityHitResult` whose entity is a `LivingEntity` and not the local player: panel `(8,36)-(168,72)`, the entity name, a track `(14,56)-(154,64)` in `0xFF202028`, and a health fill whose width is `140 * clamp(health/maxHealth, 0, 1)`. Max health is at least 1.
 
